@@ -10,7 +10,6 @@ C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Debug\name-
 C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Debug\name-sorter.Library.pdb
 C:\Users\peterluo\Documents\GitHub\name-sorterApplication\nme-sorterLibrary\bin\Debug\name-sorter.Library.dll
 C:\Users\peterluo\Documents\GitHub\name-sorterApplication\nme-sorterLibrary\bin\Debug\name-sorter.Library.pdb
-C:\Users\peterluo\Documents\GitHub\name-sorterApplication\nme-sorterLibrary\obj\Debug\name-sorter.Library.csprojAssemblyReference.cache
 C:\Users\peterluo\Documents\GitHub\name-sorterApplication\nme-sorterLibrary\obj\Debug\name-sorter.Library.csproj.CoreCompileInputs.cache
 C:\Users\peterluo\Documents\GitHub\name-sorterApplication\nme-sorterLibrary\obj\Debug\name-sorter.Library.dll
 C:\Users\peterluo\Documents\GitHub\name-sorterApplication\nme-sorterLibrary\obj\Debug\name-sorter.Library.pdb
