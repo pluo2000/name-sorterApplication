@@ -13,6 +13,43 @@ namespace name_sorter.Library.Tests
     {
 
         [Fact]
+        public void NamesToStringConversion_ShouldWork()
+        {
+            //
+            //list of sample name object
+            //
+            Name name1 = new Name("John", "Smith");
+            Name name2 = new Name("Jake Jackson", "Lee");
+            Name name3 = new Name("Rob", "Smyth");
+            Name name4 = new Name("Angela", "Nash");
+
+            List<Name> names = new List<Name>();
+            names.Add(name1);
+            names.Add(name2);
+            names.Add(name3);
+            names.Add(name4);
+
+            //
+            //expected names in string
+            //
+
+            string expected = "John Smith" + Environment.NewLine +
+                                "Jake Jackson Lee" + Environment.NewLine +
+                                "Rob Smyth" + Environment.NewLine +
+                                "Angela Nash" + Environment.NewLine;
+
+            //
+            //actual names in string 
+            //
+            string actual = NamesStringConverter.ConvertNamesToString(names);
+
+            //
+            //Assert
+            //
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
         public void StringToNamesConversion_ShouldWork()
         {
             //
